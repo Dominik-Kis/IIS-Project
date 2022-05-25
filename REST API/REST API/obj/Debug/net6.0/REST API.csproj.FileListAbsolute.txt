@@ -1,0 +1,21 @@
+C:\Users\GamerGruft\Desktop\Algebra\IIS\REST API\REST API\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\GamerGruft\Desktop\Algebra\IIS\REST API\REST API\bin\Debug\net6.0\appsettings.json
+C:\Users\GamerGruft\Desktop\Algebra\IIS\REST API\REST API\bin\Debug\net6.0\REST API.exe
+C:\Users\GamerGruft\Desktop\Algebra\IIS\REST API\REST API\bin\Debug\net6.0\REST API.deps.json
+C:\Users\GamerGruft\Desktop\Algebra\IIS\REST API\REST API\bin\Debug\net6.0\REST API.runtimeconfig.json
+C:\Users\GamerGruft\Desktop\Algebra\IIS\REST API\REST API\bin\Debug\net6.0\REST API.dll
+C:\Users\GamerGruft\Desktop\Algebra\IIS\REST API\REST API\bin\Debug\net6.0\REST API.pdb
+C:\Users\GamerGruft\Desktop\Algebra\IIS\REST API\REST API\obj\Debug\net6.0\REST API.csproj.AssemblyReference.cache
+C:\Users\GamerGruft\Desktop\Algebra\IIS\REST API\REST API\obj\Debug\net6.0\REST API.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\GamerGruft\Desktop\Algebra\IIS\REST API\REST API\obj\Debug\net6.0\REST API.AssemblyInfoInputs.cache
+C:\Users\GamerGruft\Desktop\Algebra\IIS\REST API\REST API\obj\Debug\net6.0\REST API.AssemblyInfo.cs
+C:\Users\GamerGruft\Desktop\Algebra\IIS\REST API\REST API\obj\Debug\net6.0\REST API.csproj.CoreCompileInputs.cache
+C:\Users\GamerGruft\Desktop\Algebra\IIS\REST API\REST API\obj\Debug\net6.0\REST API.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\GamerGruft\Desktop\Algebra\IIS\REST API\REST API\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\GamerGruft\Desktop\Algebra\IIS\REST API\REST API\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\GamerGruft\Desktop\Algebra\IIS\REST API\REST API\obj\Debug\net6.0\scopedcss\bundle\REST API.styles.css
+C:\Users\GamerGruft\Desktop\Algebra\IIS\REST API\REST API\obj\Debug\net6.0\REST API.dll
+C:\Users\GamerGruft\Desktop\Algebra\IIS\REST API\REST API\obj\Debug\net6.0\refint\REST API.dll
+C:\Users\GamerGruft\Desktop\Algebra\IIS\REST API\REST API\obj\Debug\net6.0\REST API.pdb
+C:\Users\GamerGruft\Desktop\Algebra\IIS\REST API\REST API\obj\Debug\net6.0\REST API.genruntimeconfig.cache
+C:\Users\GamerGruft\Desktop\Algebra\IIS\REST API\REST API\obj\Debug\net6.0\ref\REST API.dll
