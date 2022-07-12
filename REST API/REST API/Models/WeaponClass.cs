@@ -1,10 +1,21 @@
-﻿namespace REST_API.Models
+﻿using System.Xml.Serialization;
+
+namespace REST_API.Models
 {
-    public class WeaponClass
-    {
-        public List<Weapon> weapons { get; set; }
-        public string _id { get; set; }
-        public string name { get; set; }
-        public int __v { get; set; }
-    }
+	[XmlRoot(ElementName = "weapon_class")]
+	public class WeaponClass
+	{
+
+		[XmlElement(ElementName = "weapons")]
+		public List<Weapons> Weapons { get; set; }
+
+		[XmlElement(ElementName = "name")]
+		public string Name { get; set; }
+
+		[XmlAttribute(AttributeName = "id")]
+		public string Id { get; set; }
+
+		[XmlText]
+		public string Text { get; set; }
+	}
 }

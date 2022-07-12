@@ -2,15 +2,15 @@
 
 namespace REST_API.Models
 {
-	[XmlRoot(ElementName = "alt_fire")]
-	public class AltFire
+	[XmlRoot(ElementName = "feature")]
+	public class Feature
 	{
+
+		[XmlElement(ElementName = "attributes")]
+		public List<string> Attributes { get; set; }
 
 		[XmlElement(ElementName = "type")]
 		public string Type { get; set; }
-
-		[XmlElement(ElementName = "attributes")]
-		public Attributes Attributes { get; set; }
 
 		[XmlAttribute(AttributeName = "id")]
 		public string Id { get; set; }

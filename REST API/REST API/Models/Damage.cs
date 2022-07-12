@@ -1,12 +1,27 @@
-﻿namespace REST_API.Models
+﻿using System.Xml.Serialization;
+
+namespace REST_API.Models
 {
-    public class Damage
-    {
-        public string _id { get; set; }
-        public Range range { get; set; }
-        public int head { get; set; }
-        public int body { get; set; }
-        public int legs { get; set; }
-        public int __v { get; set; }
-    }
+	[XmlRoot(ElementName = "damage")]
+	public class Damage
+	{
+
+		[XmlElement(ElementName = "range")]
+		public Range Range { get; set; }
+
+		[XmlElement(ElementName = "head")]
+		public int Head { get; set; }
+
+		[XmlElement(ElementName = "body")]
+		public int Body { get; set; }
+
+		[XmlElement(ElementName = "legs")]
+		public int Legs { get; set; }
+
+		[XmlAttribute(AttributeName = "id")]
+		public string Id { get; set; }
+
+		[XmlText]
+		public int Text { get; set; }
+	}
 }

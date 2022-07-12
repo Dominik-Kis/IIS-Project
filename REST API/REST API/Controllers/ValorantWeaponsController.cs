@@ -8,12 +8,6 @@ namespace REST_API.Controllers
     [ApiController]
     public class ValorantWeaponsController : ControllerBase
     {
-        [HttpGet]
-        public List<WeaponClass> GetWeaponClasses()
-        {
-            return null;
-        }
-
         [Route("[action]/{weaponClassName}")]
         [HttpGet]
         public WeaponClass GetWeaponClass(string weaponClassName)
@@ -29,15 +23,15 @@ namespace REST_API.Controllers
 
         [Route("[action]/{weaponName}")]
         [HttpGet]
-        public Weapon GetWeapon(string weaponName)
+        public Weapons GetWeapon(string weaponName)
         {
             return null;
         }
 
         [HttpPost]
-        public void AddWeapon([FromBody]Weapon weapon)
+        public void AddWeaponXSD([FromBody]Weapons weapon)
         {
-
+            
         }
     }
 }
