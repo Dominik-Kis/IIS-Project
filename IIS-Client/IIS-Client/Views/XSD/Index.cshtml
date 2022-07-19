@@ -1,0 +1,76 @@
+﻿@model IIS_Client.Models.Weapon
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Index</h1>
+
+<h4>Weapon</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Id" class="control-label"></label>
+                <input asp-for="Id" class="form-control" />
+                <span asp-validation-for="Id" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Name" class="control-label"></label>
+                <input asp-for="Name" class="form-control" />
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Cost" class="control-label"></label>
+                <input asp-for="Cost" class="form-control" />
+                <span asp-validation-for="Cost" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Penetration" class="control-label"></label>
+                <input asp-for="Penetration" class="form-control" />
+                <span asp-validation-for="Penetration" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="FireRate" class="control-label"></label>
+                <input asp-for="FireRate" class="form-control" />
+                <span asp-validation-for="FireRate" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="RunSpeed" class="control-label"></label>
+                <input asp-for="RunSpeed" class="form-control" />
+                <span asp-validation-for="RunSpeed" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="EquipSpeed" class="control-label"></label>
+                <input asp-for="EquipSpeed" class="form-control" />
+                <span asp-validation-for="EquipSpeed" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ReloadSpeed" class="control-label"></label>
+                <input asp-for="ReloadSpeed" class="form-control" />
+                <span asp-validation-for="ReloadSpeed" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Magazine" class="control-label"></label>
+                <input asp-for="Magazine" class="form-control" />
+                <span asp-validation-for="Magazine" class="text-danger"></span>
+            </div>
+            
+            <br/>
+
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<br/>
+
+<div>
+    <a class="btn btn-primary" href="@Url.Action("Index","Home")">Back to List</a>
+</div>
+

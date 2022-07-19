@@ -1,0 +1,33 @@
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="Id" type="xs:byte"/>
+  <xs:element name="Name" type="xs:string"/>
+  <xs:element name="Cost" type="xs:short"/>
+  <xs:element name="Penetration" type="xs:float"/>
+  <xs:element name="FireRate" type="xs:float"/>
+  <xs:element name="RunSpeed" type="xs:float"/>
+  <xs:element name="EquipSpeed" type="xs:float"/>
+  <xs:element name="ReloadSpeed" type="xs:float"/>
+  <xs:element name="Magazine" type="xs:byte"/>
+  <xs:element name="Weapon">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="Id"/>
+        <xs:element ref="Name"/>
+        <xs:element ref="Cost"/>
+        <xs:element ref="Penetration"/>
+        <xs:element ref="FireRate"/>
+        <xs:element ref="RunSpeed"/>
+        <xs:element ref="EquipSpeed"/>
+        <xs:element ref="ReloadSpeed"/>
+        <xs:element ref="Magazine"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Weapons">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="Weapon" maxOccurs="unbounded" minOccurs="0"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -40,3 +40,5 @@ C:\Users\GamerGruft\Desktop\Algebra\IIS\IIS-Project\REST API\REST API\obj\Debug\
 C:\Users\GamerGruft\Desktop\Algebra\IIS\IIS-Project\REST API\REST API\obj\Debug\net6.0\REST API.pdb
 C:\Users\GamerGruft\Desktop\Algebra\IIS\IIS-Project\REST API\REST API\obj\Debug\net6.0\REST API.genruntimeconfig.cache
 C:\Users\GamerGruft\Desktop\Algebra\IIS\IIS-Project\REST API\REST API\obj\Debug\net6.0\ref\REST API.dll
+C:\Users\GamerGruft\Desktop\Algebra\IIS\IIS-Project\REST API\REST API\bin\Debug\net6.0\Commons.Xml.Relaxng.dll
+C:\Users\GamerGruft\Desktop\Algebra\IIS\IIS-Project\REST API\REST API\obj\Debug\net6.0\REST API.csproj.CopyComplete

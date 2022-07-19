@@ -1,0 +1,33 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Index</h1>
+
+<h4>WeaponSearchByName</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form action="SOAP/Result"  method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label for="name" class="control-label"></label>
+                <input type="text" id="name" name="name" class="form-control" />
+            </div>
+            
+            <br/>
+
+            <div class="form-group">
+                <input type="submit" value="Search" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<br/>
+
+<div>
+    <a class="btn btn-primary" href="@Url.Action("Index","Home")">Back to List</a>
+</div>

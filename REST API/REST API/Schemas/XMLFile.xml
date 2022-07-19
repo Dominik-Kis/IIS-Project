@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Weapon xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Id>1</Id>
+  <Name>Ghost</Name>
+  <Cost>500</Cost>
+  <Penetration>1.5</Penetration>
+  <FireRate>1.5</FireRate>
+  <RunSpeed>1.5</RunSpeed>
+  <EquipSpeed>1.5</EquipSpeed>
+  <ReloadSpeed>1.5</ReloadSpeed>
+  <Magazine>15</Magazine>
+</Weapon>

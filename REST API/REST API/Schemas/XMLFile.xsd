@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xs="http://www.w3.org/2001/XMLSchema" attributeFormDefault="unqualified" elementFormDefault="qualified">
+	<xsd:element name="Weapon">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element name="Id" type="xsd:unsignedShort" />
+				<xsd:element name="Name" type="xsd:string" />
+				<xsd:element name="Cost" type="xsd:unsignedShort" />
+				<xsd:element name="Penetration" type="xsd:decimal" />
+				<xsd:element name="FireRate" type="xsd:decimal" />
+				<xsd:element name="RunSpeed" type="xsd:decimal" />
+				<xsd:element name="EquipSpeed" type="xsd:decimal" />
+				<xsd:element name="ReloadSpeed" type="xsd:decimal" />
+				<xsd:element name="Magazine" type="xsd:unsignedShort" />
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+</xs:schema>

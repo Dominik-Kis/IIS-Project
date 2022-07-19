@@ -1,0 +1,33 @@
+﻿<element name="Weapons" xmlns="http://relaxng.org/ns/structure/1.0" datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes">
+	<oneOrMore>
+		<element name="Weapon">
+			<element name="Id">
+				<text/>
+			</element>
+			<element name="Name">
+				<text/>
+			</element>
+			<element name="Cost">
+				<data type="integer"/>
+			</element>
+			<element name="Penetration">
+				<data type="double"/>
+			</element>
+			<element name="FireRate">
+				<data type="double"/>
+			</element>
+			<element name="RunSpeed">
+				<data type="double"/>
+			</element>
+			<element name="EquipSpeed">
+				<data type="double"/>
+			</element>
+			<element name="ReloadSpeed">
+				<data type="double"/>
+			</element>
+			<element name="Magazine">
+				<data type="integer"/>
+			</element>
+		</element>
+	</oneOrMore>
+</element>

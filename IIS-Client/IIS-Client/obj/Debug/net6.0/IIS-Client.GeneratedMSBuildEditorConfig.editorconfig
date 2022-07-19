@@ -1,0 +1,64 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = IIS_Client
+build_property.RootNamespace = IIS_Client
+build_property.ProjectDir = C:\Users\GamerGruft\Desktop\Algebra\IIS\IIS-Project\IIS-Client\IIS-Client\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\GamerGruft\Desktop\Algebra\IIS\IIS-Project\IIS-Client\IIS-Client
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/GamerGruft/Desktop/Algebra/IIS/IIS-Project/IIS-Client/IIS-Client/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/GamerGruft/Desktop/Algebra/IIS/IIS-Project/IIS-Client/IIS-Client/Views/RNG/Data.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUk5HXERhdGEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/GamerGruft/Desktop/Algebra/IIS/IIS-Project/IIS-Client/IIS-Client/Views/RNG/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUk5HXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/GamerGruft/Desktop/Algebra/IIS/IIS-Project/IIS-Client/IIS-Client/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/GamerGruft/Desktop/Algebra/IIS/IIS-Project/IIS-Client/IIS-Client/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/GamerGruft/Desktop/Algebra/IIS/IIS-Project/IIS-Client/IIS-Client/Views/SOAP/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU09BUFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/GamerGruft/Desktop/Algebra/IIS/IIS-Project/IIS-Client/IIS-Client/Views/SOAP/Result.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU09BUFxSZXN1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/GamerGruft/Desktop/Algebra/IIS/IIS-Project/IIS-Client/IIS-Client/Views/XSD/Data.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcWFNEXERhdGEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/GamerGruft/Desktop/Algebra/IIS/IIS-Project/IIS-Client/IIS-Client/Views/XSD/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcWFNEXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/GamerGruft/Desktop/Algebra/IIS/IIS-Project/IIS-Client/IIS-Client/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/GamerGruft/Desktop/Algebra/IIS/IIS-Project/IIS-Client/IIS-Client/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/GamerGruft/Desktop/Algebra/IIS/IIS-Project/IIS-Client/IIS-Client/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-xv735hx0d4
