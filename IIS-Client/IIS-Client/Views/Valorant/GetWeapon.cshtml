@@ -1,0 +1,90 @@
+﻿@model IIS_Client.Models.Weapons
+
+@{
+    ViewData["Title"] = "GetWeapon";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>GetWeapon</h1>
+
+<div>
+    <h4>Weapon</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model._id)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model._id)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.name)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.name)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.cost)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.cost)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.spread)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.spread)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.fire_type)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.fire_type)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.penetration)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.penetration)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.fire_rate)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.fire_rate)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.run_speed)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.run_speed)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.equip_speed)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.equip_speed)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.reload_speed)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.reload_speed)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.magazine)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.magazine)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.__v)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.__v)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Index">Back to search</a>
+</div>
