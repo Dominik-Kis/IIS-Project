@@ -1,0 +1,35 @@
+<Weapons>
+  <Weapon>
+    <Id>1</Id>
+    <Name>Ghost</Name>
+    <Cost>500</Cost>
+    <Penetration>1.5</Penetration>
+    <FireRate>5</FireRate>
+    <RunSpeed>1.5</RunSpeed>
+    <EquipSpeed>1.5</EquipSpeed>
+    <ReloadSpeed>1.5</ReloadSpeed>
+    <Magazine>15</Magazine>
+  </Weapon>
+  <Weapon>
+    <Id>2</Id>
+    <Name>Clasic</Name>
+    <Cost>0</Cost>
+    <Penetration>1</Penetration>
+    <FireRate>4.5</FireRate>
+    <RunSpeed>2</RunSpeed>
+    <EquipSpeed>1.2</EquipSpeed>
+    <ReloadSpeed>1.2</ReloadSpeed>
+    <Magazine>11</Magazine>
+  </Weapon>
+  <Weapon>
+    <Id>3</Id>
+    <Name>Frenzy</Name>
+    <Cost>450</Cost>
+    <Penetration>1.2</Penetration>
+    <FireRate>12</FireRate>
+    <RunSpeed>1.5</RunSpeed>
+    <EquipSpeed>1.8</EquipSpeed>
+    <ReloadSpeed>1.8</ReloadSpeed>
+    <Magazine>35</Magazine>
+  </Weapon>
+</Weapons>
